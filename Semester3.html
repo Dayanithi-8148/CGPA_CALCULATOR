@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CGPA CALCULATOR</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="card">
+        <div class="back">
+           <center>
+              <h1 class="back2">CGPA CALCULATOR</h1>
+              <h3 class="back2">Get instant CGPA results - just input your grades</h3> 
+            </center>
+            <div class="form-container">
+                
+                <div class="form-group">
+                    <center>
+                        <h1>SEMESTER 3</h1>
+                        <div class="select-container">
+                            <label>Discrete Mathematics :</label>
+                            <select id="4" class="select-box">
+                                <option value="">Select An Option</option>
+                                <option value="o">O</option>
+                                <option value="a+">A+</option>
+                                <option value="a">A</option>
+                                <option value="b+">B+</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                                <option value="ra">RA</option>
+                            </select>
+                        </div>
+
+                        <div class="select-container">
+                            <label>Algorithms :</label>
+                            <select id="3" class="select-box">
+                                <option value="">Select An Option</option>
+                                <option value="o">O</option>
+                                <option value="a+">A+</option>
+                                <option value="a">A</option>
+                                <option value="b+">B+</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                                <option value="ra">RA</option>
+                            </select>
+                        </div>
+
+                        <div class="select-container">
+                            <label>Computer Networks :</label>
+                            <select id="3" class="select-box">
+                                <option value="">Select An Option</option>
+                                <option value="o">O</option>
+                                <option value="a+">A+</option>
+                                <option value="a">A</option>
+                                <option value="b+">B+</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                                <option value="ra">RA</option>
+                            </select>
+                        </div>
+
+                        <div class="select-container">
+                            <label>Java Programming :</label>
+                            <select id="3" class="select-box">
+                                <option value="">Select An Option</option>
+                                <option value="o">O</option>
+                                <option value="a+">A+</option>
+                                <option value="a">A</option>
+                                <option value="b+">B+</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                                <option value="ra">RA</option>
+                            </select>
+                        </div>
+
+                        <div class="select-container">
+                            <label>Operating Systems and Security :</label>
+                            <select id="4" class="select-box">
+                                <option value="">Select An Option</option>
+                                <option value="o">O</option>
+                                <option value="a+">A+</option>
+                                <option value="a">A</option>
+                                <option value="b+">B+</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                                <option value="ra">RA</option>
+                            </select>
+                        </div>
+
+                        <div class="select-container">
+                            <label>Algorithms Laboratory :</label>
+                            <select id="2" class="select-box">
+                                <option value="">Select An Option</option>
+                                <option value="o">O</option>
+                                <option value="a+">A+</option>
+                                <option value="a">A</option>
+                                <option value="b+">B+</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                                <option value="ra">RA</option>
+                            </select>
+                        </div>
+
+                        <div class="select-container">
+                            <label>Computer Networks Laboratory :</label>
+                            <select id="2" class="select-box">
+                                <option value="">Select An Option</option>
+                                <option value="o">O</option>
+                                <option value="a+">A+</option>
+                                <option value="a">A</option>
+                                <option value="b+">B+</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                                <option value="ra">RA</option>
+                            </select>
+                        </div>
+
+                        <div class="select-container">
+                            <label>Java Programming Laboratory :</label>
+                            <select id="2" class="select-box">
+                                <option value="">Select An Option</option>
+                                <option value="o">O</option>
+                                <option value="a+">A+</option>
+                                <option value="a">A</option>
+                                <option value="b+">B+</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                                <option value="ra">RA</option>
+                            </select>
+                        </div>
+
+                        <div class="select-container">
+                            <label>IOT Platforms And Security :</label>
+                            <select id="1" class="select-box">
+                                <option value="">Select An Option</option>
+                                <option value="o">O</option>
+                                <option value="a+">A+</option>
+                                <option value="a">A</option>
+                                <option value="b+">B+</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                                <option value="ra">RA / NOT APPLICABLE</option>
+                            </select>
+                        </div>
+
+                    </center>
+                <center>
+                    
+                    <button class="btn" onclick="calculateCgpa()">Submit</button>
+                    <div class="form-con">
+                        <h4>YOUR CGPA : </h4>
+                        <h2 id="resultcgpa"></h2>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
