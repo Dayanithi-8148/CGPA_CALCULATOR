@@ -1,9 +1,13 @@
+body{
+    margin: 0;
+}
+
 .card{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }  
 .form-container {
-    color:white;
+    color:#F9F8F6;
     background: linear-gradient(to right ,#1AA7EC,#4ADEDE);
     padding: 30px;
     border-radius: 20px;
@@ -30,12 +34,13 @@ label{
 
 
 .back{
-    background:linear-gradient(45deg,#4fd6f7,white);
-    padding:20px;
+    background-image: url(./assets/background.png);
+    padding: 50px;
+    margin: 0%;
 }
 .btn{
     background-color: #007BFF;
-    color: #fff;
+    color: #F9F8F6;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -82,7 +87,7 @@ label{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     width: 40vw;
     margin:20px; 
-    color:white;
+    color:#F9F8F6;
 }
 
 .back2{

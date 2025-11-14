@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px){
+
+    .desc{
+        font-size: 26px;
+        transform: scaleY(1.2);
+        letter-spacing: 1.5px;
+    }
+
+    .main-card{
+        padding: 10px;
+        background-image: url('../assets/background-mobile.png') !important;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .button-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+
+    .back{
+        background-image: url(./assets/background-mobile.png);
+    }
+
+    .form-con{
+        width:30vw;
+    }
+}
