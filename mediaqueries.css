@@ -25,9 +25,19 @@
 
     .back{
         background-image: url(./assets/background-mobile.png);
+        padding:25px;
     }
 
     .form-con{
         width:30vw;
     }
+
+    .form-container{
+        width: 72vw;
+    }
+
+    .form-group {
+        margin: 5px;
+    }
+
 }
